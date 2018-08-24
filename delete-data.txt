@@ -1,0 +1,33 @@
+delete from land_parcel_crop where land_parcel_crop.landParcel in (select id from land_parcel where land_parcel.survey='2bc8f7e6-e8e0-4a8d-adf9-69ad9faf5d5e');
+delete from land_parcel_fo where land_parcel_fo.landParcel in (select id from land_parcel where land_parcel.survey='2bc8f7e6-e8e0-4a8d-adf9-69ad9faf5d5e');
+delete from land_parcel_lm where land_parcel_lm.landParcel in (select id from land_parcel where land_parcel.survey='2bc8f7e6-e8e0-4a8d-adf9-69ad9faf5d5e');
+delete from land_parcel where land_parcel.survey='2bc8f7e6-e8e0-4a8d-adf9-69ad9faf5d5e';
+delete from farmer where farmer.survey='2bc8f7e6-e8e0-4a8d-adf9-69ad9faf5d5e';
+delete from survey_answer where survey_answer.survey='2bc8f7e6-e8e0-4a8d-adf9-69ad9faf5d5e';
+delete from survey_data where survey_data.id='2bc8f7e6-e8e0-4a8d-adf9-69ad9faf5d5e';
+
+// survey
+delete from land_parcel_crop where land_parcel_crop.createdAt > '2018-07-06 00:01:00';
+delete from land_parcel_fo where land_parcel_fo.createdAt > '2018-07-06 00:01:00';
+delete from land_parcel_lm where land_parcel_lm.createdAt > '2018-07-06 00:01:00';
+delete from land_parcel where land_parcel.createdAt > '2018-07-06 00:01:00';
+delete from farmer where farmer.createdAt > '2018-07-06 00:01:00';
+delete from survey_answer where survey_answer.createdAt > '2018-07-06 00:01:00';
+delete from survey_data where survey_data.createdAt > '2018-07-06 00:01:00';
+
+// tasks
+delete from task_assigned where task_assigned.createdAt > '2018-08-21 00:01:00';
+delete from task_comment where task_comment.createdAt > '2018-08-21 00:01:00';
+delete from task where task.createdAt > '2018-08-21 00:01:00';
+
+// prospects
+delete from prospect where prospect.createdAt > '2018-08-21 00:01:00';
+
+// messages
+delete from reply_user where reply_user.lastSyncedTime > '2018-08-21 00:01:00';
+delete from reply where reply.createdAt > '2018-08-21 00:01:00';
+delete from message_user where message_user.lastSyncedTime > '2018-08-21 00:01:00';
+delete from message where message.createdAt > '2018-08-21 00:01:00';
+
+// users
+delete from user where user.name like 'Auto%';

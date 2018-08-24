@@ -1,0 +1,10 @@
+{
+ "token": "Bearer eyJraWQiOiJGMjFTOXE5RnUxYnM5U0tQcjlYUUc4VjY4NjNFUWtKa2VycVMwTmZENnlZPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxNWZkMDFlZi1lMjIzLTRjOTAtYjQ1Zi1hZDc1YzNjNmNjY2EiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoZWFzdC0xLmFtYXpvbmF3cy5jb21cL2FwLXNvdXRoZWFzdC0xX3R4MkplNHJ3OCIsInBob25lX251bWJlcl92ZXJpZmllZCI6dHJ1ZSwiY29nbml0bzp1c2VybmFtZSI6IjE1ZmQwMWVmLWUyMjMtNGM5MC1iNDVmLWFkNzVjM2M2Y2NjYSIsImF1ZCI6IjRwcnBmdGs4NHBmZWk4dGZmMjMxbDd0b2h2IiwiZXZlbnRfaWQiOiJhODhiZWI5Yi1hN2EzLTExZTgtOTBlMS0wZGZkZTc2NWY1Y2QiLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTUzNTExODE5OCwicGhvbmVfbnVtYmVyIjoiKzk0Nzc0MjAxMzIyIiwiZXhwIjoxNTM1MTIxNzk4LCJpYXQiOjE1MzUxMTgxOTgsImVtYWlsIjoiRGlsaGFuaWRAOTl4LmxrIn0.aIOTQCJk8wQ_o4WCneTpIUKx_XOsUmlw12USdV3_SM8Wx7OB6uNlg1r9zaMSM9ceFyG-vcCNOLJTF3zsq2Q62Q71Pdv0qy6MWPjFFyRKtdRcqpT7Bng_8e3Qyx93k-7N8qDvpVAEm8BbIu8vldIZhuOrTqUeUD_A87udj1BV-YAIx161892RJBTCE9j0j4Tdha81m3oanP-ePehbepg5MbWfHkVkXkqIJer6FwE9DOEDt01UCNQbUJbHIVHpx72_96uv7T_I7YMr9y3wqFvw81lx5bLlVw05x0ce6i_IPku3CQIP0fr5WxpT2XX1ajnvUY6RJu4d4U0IM4ViHZK7kA",
+ "urls": {
+  "farmers": "",
+  "prospects": "https://dev.plantx.org/dev/v1/mobile/prospects/sync",
+  "tasks": "https://dev.plantx.org/dev/v1/tasks",
+  "users": "https://dev.plantx.org/dev/v1/users",
+  "messages": "https://dev.plantx.org/dev/v1/messages/create"
+ }
+}
